@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D240FB99-C1D0-4E7D-AEE6-5E63FC483ECC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FastFrameword.AutofacConfig</RootNamespace>
+    <AssemblyName>FastFrameword.AutofacConfig</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DbConfigExtentions.cs" />
+    <Compile Include="MainRepositortyExtentions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserCenterExteions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\FastFramework.DataLib\FastFramework.DataLib.csproj">
+      <Project>{3f22bd35-867b-44a4-b346-f30ef88e6381}</Project>
+      <Name>FastFramework.DataLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FastFramework.Core\FastFramework.Core.csproj">
+      <Project>{4176c982-06a8-4953-ae99-3757a0f9f46b}</Project>
+      <Name>FastFramework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repositorys\FastFramework.Repositorys.Core.Contracts\FastFramework.Repositorys.Core.Contracts.csproj">
+      <Project>{ed96c8c1-3363-488c-bb7d-4861fb335f22}</Project>
+      <Name>FastFramework.Repositorys.Core.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repositorys\FastFramework.Repositorys.Core\FastFramework.Repositorys.Core.csproj">
+      <Project>{73a90b87-244e-45f0-8d64-4c753516a281}</Project>
+      <Name>FastFramework.Repositorys.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repositorys\FastFramework.Repositorys.Main.Contracts\FastFramework.Repositorys.Main.Contracts.csproj">
+      <Project>{359bf641-c073-4453-96d4-95be54b3a0ff}</Project>
+      <Name>FastFramework.Repositorys.Main.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repositorys\FastFramework.Repositorys.Main\FastFramework.Repositorys.Main.csproj">
+      <Project>{0b5c3052-2d78-4ec5-95f9-884072ec532f}</Project>
+      <Name>FastFramework.Repositorys.Main</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Services\FastFramework.Services.Mains.Contracts\FastFramework.Services.Mains.Contracts.csproj">
+      <Project>{35c36087-dc8b-4a60-92cb-aaaafddc1468}</Project>
+      <Name>FastFramework.Services.Mains.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Services\FastFramework.Services.Mains\FastFramework.Services.Mains.csproj">
+      <Project>{cde83447-1bf1-46c0-a465-d74f1e15b76f}</Project>
+      <Name>FastFramework.Services.Mains</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

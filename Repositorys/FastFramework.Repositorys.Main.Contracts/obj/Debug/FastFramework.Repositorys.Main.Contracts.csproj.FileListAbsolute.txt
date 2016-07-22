@@ -1,0 +1,9 @@
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main.Contracts\bin\Debug\FastFramework.Repositorys.Main.Contracts.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main.Contracts\bin\Debug\FastFramework.Repositorys.Main.Contracts.pdb
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main.Contracts\bin\Debug\FastFramework.DataLib.Models.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main.Contracts\bin\Debug\FastFramework.Repositorys.Core.Contracts.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main.Contracts\bin\Debug\FastFramework.DataLib.Models.pdb
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main.Contracts\bin\Debug\FastFramework.Repositorys.Core.Contracts.pdb
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main.Contracts\obj\Debug\FastFramework.Repositorys.Main.Contracts.csprojResolveAssemblyReference.cache
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main.Contracts\obj\Debug\FastFramework.Repositorys.Main.Contracts.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main.Contracts\obj\Debug\FastFramework.Repositorys.Main.Contracts.pdb

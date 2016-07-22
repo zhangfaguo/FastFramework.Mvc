@@ -1,0 +1,13 @@
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\obj\Debug\FastFramework.Services.Mains.csprojResolveAssemblyReference.cache
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\bin\Debug\FastFramework.Services.Mains.dll
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\bin\Debug\FastFramework.Services.Mains.pdb
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\bin\Debug\FastFramework.DataLib.Models.dll
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\bin\Debug\FastFramework.Repositorys.Core.Contracts.dll
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\bin\Debug\FastFramework.Repositorys.Main.Contracts.dll
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\bin\Debug\FastFramework.Services.Mains.Contracts.dll
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\bin\Debug\FastFramework.DataLib.Models.pdb
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\bin\Debug\FastFramework.Repositorys.Core.Contracts.pdb
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\bin\Debug\FastFramework.Repositorys.Main.Contracts.pdb
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\bin\Debug\FastFramework.Services.Mains.Contracts.pdb
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\obj\Debug\FastFramework.Services.Mains.dll
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains\obj\Debug\FastFramework.Services.Mains.pdb

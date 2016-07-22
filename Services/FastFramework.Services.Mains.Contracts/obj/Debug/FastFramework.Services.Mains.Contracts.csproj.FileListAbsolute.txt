@@ -1,0 +1,5 @@
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains.Contracts\bin\Debug\FastFramework.Services.Mains.Contracts.dll
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains.Contracts\bin\Debug\FastFramework.Services.Mains.Contracts.pdb
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains.Contracts\obj\Debug\FastFramework.Services.Mains.Contracts.csprojResolveAssemblyReference.cache
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains.Contracts\obj\Debug\FastFramework.Services.Mains.Contracts.dll
+E:\Project\GIT\FastFramework\Services\FastFramework.Services.Mains.Contracts\obj\Debug\FastFramework.Services.Mains.Contracts.pdb

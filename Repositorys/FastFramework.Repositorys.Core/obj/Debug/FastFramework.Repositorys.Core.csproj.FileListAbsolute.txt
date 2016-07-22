@@ -1,0 +1,16 @@
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\obj\Debug\FastFramework.Repositorys.Core.csprojResolveAssemblyReference.cache
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\FastFramework.Repositorys.Core.dll.config
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\FastFramework.Repositorys.Core.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\FastFramework.Repositorys.Core.pdb
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.Extended.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\FastFramework.DataLib.Models.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\FastFramework.Repositorys.Core.Contracts.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\FastFramework.DataLib.Models.pdb
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\FastFramework.Repositorys.Core.Contracts.pdb
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.xml
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.Extended.xml
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\obj\Debug\FastFramework.Repositorys.Core.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\obj\Debug\FastFramework.Repositorys.Core.pdb
