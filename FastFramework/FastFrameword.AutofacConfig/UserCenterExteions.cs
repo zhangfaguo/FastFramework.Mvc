@@ -13,6 +13,7 @@ namespace FastFrameword.AutofacConfig
         public static IAppContianer UseCenter(this IAppContianer cfg)
         {
             cfg.RegistType<IUserCenterService, UserCenterService>();
+            cfg.RegistType<ILogService, LogService>();
             return cfg;
         }
     }

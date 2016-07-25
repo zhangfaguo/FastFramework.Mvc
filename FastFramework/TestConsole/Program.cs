@@ -18,7 +18,7 @@ namespace TestConsole
                 .RegistMainRepository()
                 .UseCenter();
 
-            AppConfig.Containers.Reloser<IUserCenterService>().Get();
+            AppConfig.Containers.Reloser<ILogService>().Log("a",new ArgumentNullException("NABNE"));
 
         }
     }

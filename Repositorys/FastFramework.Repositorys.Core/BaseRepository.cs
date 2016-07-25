@@ -10,7 +10,7 @@ using Microsoft.Practices.Unity;
 
 namespace FastFramework.Repositorys.Core
 {
-    public abstract class BaseRepository<TEntity> : BaseRepository, IRepository<TEntity>
+    public abstract class BaseRepository<TEntity> : BaseRepository, IEfRepository<TEntity>
         where TEntity : class
     {
 

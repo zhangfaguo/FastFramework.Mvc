@@ -25,3 +25,5 @@ E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\obj\Debug
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\obj\Debug\FastFrameword.AutofacConfig.pdb
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.Unity.dll
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\log4net.dll
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\log4net.xml

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace FastFramework.Repositorys.Core.Contracts
 {
-    public interface IRepository<TEntity>
+    public interface IEfRepository<TEntity> : IRepository
         where TEntity : class
     {
 
@@ -47,4 +47,11 @@ namespace FastFramework.Repositorys.Core.Contracts
 
 
     }
+
+
+    public interface IRepository
+    {
+
+    }
+
 }

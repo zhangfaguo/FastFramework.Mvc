@@ -7,7 +7,7 @@ using System.Text;
 
 namespace FastFramework.Repositorys.Main.Contracts
 {
-    public interface IUserRepository : IRepository<Users>
+    public interface IUserRepository : IEfRepository<Users>
     {
     }
 }

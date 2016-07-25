@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserCenterService.cs" />
   </ItemGroup>

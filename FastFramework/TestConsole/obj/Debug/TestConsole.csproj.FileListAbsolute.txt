@@ -40,3 +40,5 @@ E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.R
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\EntityFramework.Extended.dll
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Repositorys.Main.pdb
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Repositorys.Core.pdb
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\log4net.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\log4net.xml
