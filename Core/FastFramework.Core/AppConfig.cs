@@ -9,7 +9,7 @@ namespace FastFramework.Core
     public class AppConfig
     {
         static AppConfig _ins;
-       
+
         static AppConfig()
         {
             _ins = new AppConfig();
@@ -38,6 +38,20 @@ namespace FastFramework.Core
             set
             {
                 _ins.Container = value;
+            }
+        }
+
+        public IMapper Mapper { get; set; }
+
+        public static IMapper Mappers
+        {
+            get
+            {
+                return _ins.Mapper;
+            }
+            set
+            {
+                _ins.Mapper = value;
             }
         }
     }
