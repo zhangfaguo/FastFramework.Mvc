@@ -9,6 +9,7 @@ namespace FastFramework.Core
     public class AppConfig
     {
         static AppConfig _ins;
+       
         static AppConfig()
         {
             _ins = new AppConfig();
