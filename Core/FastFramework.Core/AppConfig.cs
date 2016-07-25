@@ -23,6 +23,7 @@ namespace FastFramework.Core
             }
         }
 
+        #region IOC容器
         public IAppContianer Container
         {
             get;
@@ -39,8 +40,10 @@ namespace FastFramework.Core
             {
                 _ins.Container = value;
             }
-        }
+        } 
+        #endregion
 
+        #region 对象转换器
         public IMapper Mapper { get; set; }
 
         public static IMapper Mappers
@@ -53,6 +56,7 @@ namespace FastFramework.Core
             {
                 _ins.Mapper = value;
             }
-        }
+        } 
+        #endregion
     }
 }

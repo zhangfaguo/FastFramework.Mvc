@@ -47,6 +47,10 @@
     <Compile Include="UserCenterService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\FastFramework.Core\FastFramework.Core.csproj">
+      <Project>{4176c982-06a8-4953-ae99-3757a0f9f46b}</Project>
+      <Name>FastFramework.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Data\FastFramework.DataLib.Models\FastFramework.DataLib.Models.csproj">
       <Project>{6c63b935-d75c-4362-9aa2-f731c6d05f93}</Project>
       <Name>FastFramework.DataLib.Models</Name>

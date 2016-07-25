@@ -58,7 +58,7 @@ namespace FastFramework.Core.AutofacContainers
         public void RegistTypeByThreadLife<T1, T2>() where T2 : T1
         {
             var builder = new Autofac.ContainerBuilder();
-            var exp = builder.RegisterType<T2>().As<T1>().SingleInstance();
+            var exp = builder.RegisterType<T2>().As<T1>().InstancePerHttpRequest();
             exp.PropertiesAutowired();
 
             builder.Update(container);

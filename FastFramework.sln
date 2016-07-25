@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Core.UnityCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Core.AutofacContainers", "Core\FastFramework.Core.AutofacContainers\FastFramework.Core.AutofacContainers.csproj", "{0C311812-A185-4F42-8642-6D1BCA7AF19B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Core.AutoMapperProviders", "Core\FastFramework.Core.AutoMapperProviders\FastFramework.Core.AutoMapperProviders.csproj", "{8FD49B33-9483-40B8-B25E-D4608C0365B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{0C311812-A185-4F42-8642-6D1BCA7AF19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C311812-A185-4F42-8642-6D1BCA7AF19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C311812-A185-4F42-8642-6D1BCA7AF19B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD49B33-9483-40B8-B25E-D4608C0365B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD49B33-9483-40B8-B25E-D4608C0365B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD49B33-9483-40B8-B25E-D4608C0365B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD49B33-9483-40B8-B25E-D4608C0365B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,6 +117,7 @@ Global
 		{4176C982-06A8-4953-AE99-3757A0F9F46B} = {FE565DEE-6FEA-473D-85E1-A573AEF9679C}
 		{553EDF96-26B0-49F2-9D97-8858687E12EE} = {FE565DEE-6FEA-473D-85E1-A573AEF9679C}
 		{0C311812-A185-4F42-8642-6D1BCA7AF19B} = {FE565DEE-6FEA-473D-85E1-A573AEF9679C}
+		{8FD49B33-9483-40B8-B25E-D4608C0365B7} = {FE565DEE-6FEA-473D-85E1-A573AEF9679C}
 		{5347A29B-88BB-4DEC-B6EC-4BAF6A0BADA3} = {111D0988-723E-4845-ACE3-8EF2EAD4FC7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

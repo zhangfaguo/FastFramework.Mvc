@@ -50,3 +50,7 @@ E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.C
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Autofac.xml
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Autofac.Configuration.xml
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Autofac.Integration.Mvc.xml
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Core.AutoMapperProviders.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\AutoMapper.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Core.AutoMapperProviders.pdb
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\AutoMapper.xml

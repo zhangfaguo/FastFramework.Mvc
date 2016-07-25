@@ -12,8 +12,11 @@ namespace TestConsole
     {
         static void Main(string[] args)
         {
-            AppConfig.Instance.UseAutofac();
+            AppConfig.Instance
+                .UseAutofac()
+                .UseAutoMapper();
 
+           
             AppConfig.Containers.UserDb()
                 .RegistMainRepository()
                 .UseCenter();
