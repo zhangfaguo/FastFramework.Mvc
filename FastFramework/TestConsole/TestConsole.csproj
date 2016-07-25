@@ -48,6 +48,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\FastFramework.Core.AutofacContainers\FastFramework.Core.AutofacContainers.csproj">
+      <Project>{0c311812-a185-4f42-8642-6d1bca7af19b}</Project>
+      <Name>FastFramework.Core.AutofacContainers</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Core\FastFramework.Core.UnityContainers\FastFramework.Core.UnityContainers.csproj">
       <Project>{553edf96-26b0-49f2-9d97-8858687e12ee}</Project>
       <Name>FastFramework.Core.UnityContainers</Name>

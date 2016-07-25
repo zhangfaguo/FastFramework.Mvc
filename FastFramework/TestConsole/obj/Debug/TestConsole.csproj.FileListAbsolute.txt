@@ -42,3 +42,11 @@ E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.R
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Repositorys.Core.pdb
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\log4net.dll
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\log4net.xml
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Core.AutofacContainers.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Autofac.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Autofac.Configuration.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Autofac.Integration.Mvc.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Core.AutofacContainers.pdb
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Autofac.xml
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Autofac.Configuration.xml
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Autofac.Integration.Mvc.xml

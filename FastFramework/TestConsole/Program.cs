@@ -12,13 +12,13 @@ namespace TestConsole
     {
         static void Main(string[] args)
         {
-            AppConfig.Instance.UseUnity();
+            AppConfig.Instance.UseAutofac();
 
             AppConfig.Containers.UserDb()
                 .RegistMainRepository()
                 .UseCenter();
 
-            AppConfig.Containers.Reloser<ILogService>().Log("a",new ArgumentNullException("NABNE"));
+            AppConfig.Containers.Reloser<IUserCenterService>().Get();
 
         }
     }
