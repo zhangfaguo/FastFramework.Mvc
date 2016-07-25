@@ -1,5 +1,5 @@
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib.Models\bin\Debug\FastFramework.DataLib.Models.dll
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib.Models\bin\Debug\FastFramework.DataLib.Models.pdb
-E:\Project\GIT\FastFramework\Data\FastFramework.DataLib.Models\obj\Debug\FastFramework.DataLib.Models.csprojResolveAssemblyReference.cache
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib.Models\obj\Debug\FastFramework.DataLib.Models.dll
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib.Models\obj\Debug\FastFramework.DataLib.Models.pdb
+E:\Project\GIT\FastFramework\Data\FastFramework.DataLib.Models\obj\Debug\FastFramework.DataLib.Models.csprojResolveAssemblyReference.cache

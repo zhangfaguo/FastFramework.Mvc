@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FastFrameword.AutofacConfig</RootNamespace>
     <AssemblyName>FastFrameword.AutofacConfig</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
@@ -63,13 +66,13 @@
     <Compile Include="UserCenterExteions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\FastFramework.Core\FastFramework.Core.csproj">
+      <Project>{4176c982-06a8-4953-ae99-3757a0f9f46b}</Project>
+      <Name>FastFramework.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Data\FastFramework.DataLib\FastFramework.DataLib.csproj">
       <Project>{3f22bd35-867b-44a4-b346-f30ef88e6381}</Project>
       <Name>FastFramework.DataLib</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\FastFramework.Core\FastFramework.Core.csproj">
-      <Project>{4176c982-06a8-4953-ae99-3757a0f9f46b}</Project>
-      <Name>FastFramework.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Repositorys\FastFramework.Repositorys.Core.Contracts\FastFramework.Repositorys.Core.Contracts.csproj">
       <Project>{ed96c8c1-3363-488c-bb7d-4861fb335f22}</Project>

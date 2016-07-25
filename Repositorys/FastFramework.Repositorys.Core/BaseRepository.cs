@@ -6,6 +6,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using EntityFramework.Extensions;
+using Microsoft.Practices.Unity;
 
 namespace FastFramework.Repositorys.Core
 {
@@ -85,6 +86,7 @@ namespace FastFramework.Repositorys.Core
 
     public abstract class BaseRepository
     {
+        [Dependency]
         public DbContext Provider { get; set; }
 
     }

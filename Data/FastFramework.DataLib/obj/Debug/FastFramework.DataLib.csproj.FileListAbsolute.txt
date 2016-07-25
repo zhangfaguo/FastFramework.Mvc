@@ -1,12 +1,8 @@
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\FastFramework.DataLib.dll.config
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\FastFramework.DataLib.dll
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\FastFramework.DataLib.pdb
-E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\EntityFramework.dll
-E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\EntityFramework.SqlServer.dll
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\FastFramework.DataLib.Models.dll
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\FastFramework.DataLib.Models.pdb
-E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\EntityFramework.xml
-E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\EntityFramework.SqlServer.xml
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\obj\Debug\FastFramework.DataLib.csprojResolveAssemblyReference.cache
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\obj\Debug\FastFramework.DataLib.dll
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\obj\Debug\FastFramework.DataLib.pdb

@@ -12,10 +12,10 @@ namespace FastFrameword.AutofacConfig
         static class DbConfigExtentions
     {
 
-        public static AppConfig UserDb(this AppConfig cfg)
+        public static IAppContianer UserDb(this IAppContianer cfg)
         {
 
-            cfg.Container.RegisterSingle<Context, DbContext>();
+            cfg.RgeistSingle<DbContext, Context>();
 
             return cfg;
 

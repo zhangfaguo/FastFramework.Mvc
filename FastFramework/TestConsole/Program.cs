@@ -3,8 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using FastFrameword.AutofacConfig;
 using FastFramework.Services.Mains.Contracts;
+using FastFrameword.AutofacConfig;
 
 namespace TestConsole
 {
@@ -12,12 +12,14 @@ namespace TestConsole
     {
         static void Main(string[] args)
         {
-            AppConfig.Instance.UserDb();
-            AppConfig.Instance.RegistMainRepository();
-            AppConfig.Instance.UserCenterAutofac();
+            AppConfig.Instance.UseUnity();
 
-            var b = AppConfig.Instance.Container.Resolve<IUserCenterService>();
-            b.Get();
+            AppConfig.Containers.UserDb()
+                .RegistMainRepository()
+                .UseCenter();
+
+            AppConfig.Containers.Reloser<IUserCenterService>().Get();
+
         }
     }
 }

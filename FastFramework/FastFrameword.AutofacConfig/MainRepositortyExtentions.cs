@@ -13,20 +13,12 @@ namespace FastFrameword.AutofacConfig
 {
     public static class MainRepositortyExtentions
     {
-        public static AppConfig RegistMainRepository(this AppConfig cfg)
+        public static IAppContianer RegistMainRepository(this IAppContianer cfg)
         {
-            var buliber = new ContainerBuilder();
-
-            Regist<UserRepository, IUserRepository>(buliber);
-            buliber.Update(cfg.Container.AutofacContainer);
+            cfg.RegistType<IUserRepository, UserRepository>();
 
             return cfg;
         }
 
-        private static void Regist<T, F>(ContainerBuilder buliber)
-            where T : BaseRepository
-        {
-            buliber.RegisterType<T>().As<F>().OnActivated(e => e.Instance.Provider = e.Context.Resolve<DbContext>());
-        }
     }
 }
