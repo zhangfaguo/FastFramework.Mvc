@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using log4net;
 
-namespace FastFramework.Repositorys.Core
+namespace FastFramework.Repositorys.Components
 {
  
     public class LogRepository : ILogRepository

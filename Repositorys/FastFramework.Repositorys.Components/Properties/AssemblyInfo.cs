@@ -5,15 +5,15 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("FastFramework.Repositorys.Core")]
+[assembly: AssemblyTitle("FastFramework.Repositorys.Components")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FastFramework.Repositorys.Core")]
+[assembly: AssemblyProduct("FastFramework.Repositorys.Components")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
 
 // 将 ComVisible 设置为 false 使此程序集中的类型
 // 对 COM 组件不可见。如果需要从 COM 访问此程序集中的类型，
@@ -21,7 +21,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("9e86731e-0d59-4213-8125-24a80e8c4e7c")]
+[assembly: Guid("f3455835-f684-453e-a19a-3413098ddd6d")]
 
 // 程序集的版本信息由下面四个值组成:
 //

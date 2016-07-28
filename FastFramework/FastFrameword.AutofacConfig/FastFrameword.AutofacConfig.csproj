@@ -70,6 +70,10 @@
       <Project>{3f22bd35-867b-44a4-b346-f30ef88e6381}</Project>
       <Name>FastFramework.DataLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Repositorys\FastFramework.Repositorys.Components\FastFramework.Repositorys.Components.csproj">
+      <Project>{ac878e56-d1d7-425e-ad78-83b4da40069b}</Project>
+      <Name>FastFramework.Repositorys.Components</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Repositorys\FastFramework.Repositorys.Core.Contracts\FastFramework.Repositorys.Core.Contracts.csproj">
       <Project>{ed96c8c1-3363-488c-bb7d-4861fb335f22}</Project>
       <Name>FastFramework.Repositorys.Core.Contracts</Name>

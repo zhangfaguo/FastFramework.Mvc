@@ -54,3 +54,5 @@ E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.C
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\AutoMapper.dll
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Core.AutoMapperProviders.pdb
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\AutoMapper.xml
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Repositorys.Components.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Repositorys.Components.pdb

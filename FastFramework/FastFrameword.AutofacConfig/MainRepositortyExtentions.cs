@@ -8,6 +8,7 @@ using FastFramework.Repositorys.Main.Contracts;
 using System.Data.Entity;
 using FastFramework.Repositorys.Core;
 using FastFramework.Repositorys.Core.Contracts;
+using FastFramework.Repositorys.Components;
 
 namespace FastFrameword.AutofacConfig
 {
