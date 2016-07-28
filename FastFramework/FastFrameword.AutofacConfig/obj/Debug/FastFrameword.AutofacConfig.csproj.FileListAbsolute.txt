@@ -29,3 +29,9 @@ E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\log4net.xml
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\FastFramework.Repositorys.Components.dll
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\FastFramework.Repositorys.Components.pdb
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.Unity.Interception.xml
