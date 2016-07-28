@@ -15,3 +15,5 @@ E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main\obj\Debu
 E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main\obj\Debug\FastFramework.Repositorys.Main.pdb
 E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main\bin\Debug\Microsoft.Practices.Unity.dll
 E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main\bin\Debug\Microsoft.Practices.Unity.xml
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main\bin\Debug\EntityFramework.xml
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Main\bin\Debug\EntityFramework.Extended.xml

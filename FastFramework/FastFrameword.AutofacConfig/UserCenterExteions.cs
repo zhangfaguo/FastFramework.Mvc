@@ -10,10 +10,13 @@ namespace FastFrameword.AutofacConfig
 {
     public static class UserCenterExteions
     {
-        public static IAppContianer UseCenter(this IAppContianer cfg)
+        public static IAppContianer RegisterService(this IAppContianer cfg)
         {
             cfg.RegistType<IUserCenterService, UserCenterService>();
+
             cfg.RegistType<ILogService, LogService>();
+            cfg.RegistType<ICacheService, CacheService>();
+
             return cfg;
         }
     }

@@ -107,5 +107,22 @@ namespace FastFramework.Core
         }
 
         #endregion
+
+        #region Json转换器
+        public IJsonProvider JsonConvert { get; set; }
+
+        public static IJsonProvider JsonConverts
+        {
+            get
+            {
+                return _ins.JsonConvert;
+            }
+            set
+            {
+                _ins.JsonConvert = value;
+            }
+        }
+        #endregion
+
     }
 }

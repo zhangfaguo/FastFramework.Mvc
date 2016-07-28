@@ -12,7 +12,7 @@ using System.Web.Mvc;
 
 namespace FastFramework.Core.AutofacContainers
 {
-    internal class AutofacContainerProvider : IAppContianer
+    public class AutofacContainerProvider : IAppContianer
     {
         IContainer container;
         public AutofacContainerProvider()

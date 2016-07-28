@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FastFramework.Core.AutoMapperProviders
 {
-    internal class AutoMapperProvider : IMapper
+    public class AutoMapperProvider : IMapper
     {
         public T Map<T>(object obj)
         {

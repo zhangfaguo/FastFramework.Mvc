@@ -1,18 +1,13 @@
-﻿using FastFramework.Repositorys.Core.Contracts;
+﻿using FastFramework.Core;
 using FastFramework.Services.Mains.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FastFramework.Services.Mains
 {
     public class CacheService : ICacheService
     {
-        protected ICacheRepository cacheReposiotry;
+        protected ICacheProvider cacheReposiotry;
 
-        public CacheService(ICacheRepository cache)
+        public CacheService(ICacheProvider cache)
         {
             cacheReposiotry = cache;
         }

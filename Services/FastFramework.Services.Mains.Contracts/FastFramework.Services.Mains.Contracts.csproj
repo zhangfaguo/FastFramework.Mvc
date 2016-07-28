@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICacheService.cs" />
     <Compile Include="ILogService.cs" />
+    <Compile Include="IMessageQueueService.cs" />
     <Compile Include="IUserCenterService.cs" />
+    <Compile Include="Models\MessageObject.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

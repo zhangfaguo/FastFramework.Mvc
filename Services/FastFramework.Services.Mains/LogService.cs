@@ -1,31 +1,28 @@
-﻿using FastFramework.Repositorys.Core.Contracts;
+﻿using FastFramework.Core;
+using FastFramework.Repositorys.Core.Contracts;
 using FastFramework.Services.Mains.Contracts;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FastFramework.Services.Mains
 {
     public class LogService : ILogService
     {
-        protected ILogRepository log;
+        public ILogProvider logProvider { get; set; }
 
-        public LogService(ILogRepository _log)
+        public LogService(ILogProvider _log)
         {
-            log = _log;
+            logProvider = _log;
         }
 
         public void Log(string logName, string msg)
         {
-            log.Log(logName, msg);
+            logProvider.Log(logName, msg);
         }
 
 
         public void Log(string logName, Exception ex)
         {
-            log.Log(logName, ex);
+            logProvider.Log(logName, ex);
         }
     }
 }

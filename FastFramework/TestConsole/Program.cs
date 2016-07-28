@@ -1,10 +1,7 @@
 ﻿using FastFramework.Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using FastFramework.Services.Mains.Contracts;
 using FastFrameword.AutofacConfig;
+using FastFramework.Services.Mains.Contracts.Models;
 
 namespace TestConsole
 {
@@ -12,16 +9,16 @@ namespace TestConsole
     {
         static void Main(string[] args)
         {
-            AppConfig.Instance
-                .UseAutofac()
-                .UseAutoMapper();
+            AppConfig.Instance.UseAutofac()
+                              .Config();
 
-           
-            AppConfig.Containers.UserDb()
+
+            AppConfig.Containers.RegisterDB()
                 .RegistMainRepository()
-                .UseCenter();
+                .RegisterService();
 
-            AppConfig.Containers.Reloser<IUserCenterService>().Get();
+            var mdeol = new { UserName = "zhangfaguo" }.To<UserModel>();
+            AppConfig.Containers.Reloser<ILogService>().Log("test", "test");
 
         }
     }

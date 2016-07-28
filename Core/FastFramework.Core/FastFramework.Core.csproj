@@ -47,9 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfig.cs" />
+    <Compile Include="ICacheProvider.cs" />
+    <Compile Include="IJsonProvider.cs" />
     <Compile Include="Extentions\ObjectExtention.cs" />
     <Compile Include="IAppContianers.cs" />
+    <Compile Include="ILogProvder.cs" />
     <Compile Include="IMapper.cs" />
+    <Compile Include="IMessageQueueProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,20 +1,15 @@
-﻿using FastFramework.Repositorys.Core.Contracts;
-using Microsoft.Practices.EnterpriseLibrary.Caching;
+﻿using Microsoft.Practices.EnterpriseLibrary.Caching;
 using Microsoft.Practices.EnterpriseLibrary.Caching.Expirations;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace FastFramework.Repositorys.Components
+namespace FastFramework.Core.CacheProviders
 {
-    public class MemeryCacheRepository : ICacheRepository
+    public class MemeryCacheProvider : ICacheProvider
     {
         private ICacheManager cache;
 
         /// <param name="managerName">缓存对象名称</param>
-        public MemeryCacheRepository(string managerName = "")
+        public MemeryCacheProvider(string managerName = "")
         {
             cache = CacheFactory.GetCacheManager(managerName);
         }
@@ -47,7 +42,7 @@ namespace FastFramework.Repositorys.Components
             return true;
         }
 
-        public  bool Contains(string key)
+        public bool Contains(string key)
         {
             return cache.Contains(key);
         }

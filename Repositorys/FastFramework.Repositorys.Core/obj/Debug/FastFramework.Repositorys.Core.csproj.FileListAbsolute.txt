@@ -14,3 +14,9 @@ E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debu
 E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\Microsoft.Practices.Unity.xml
 E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.Extended.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.xml
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.Extended.xml
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.SqlServer.xml

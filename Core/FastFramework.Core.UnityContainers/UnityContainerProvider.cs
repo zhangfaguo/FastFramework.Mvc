@@ -6,7 +6,7 @@ using Microsoft.Practices.Unity.Configuration;
 
 namespace FastFramework.Core.UnityContainers
 {
-    internal class UnityContainerProvider : IAppContianer
+    public class UnityContainerProvider : IAppContianer
     {
         IUnityContainer container;
         public UnityContainerProvider()

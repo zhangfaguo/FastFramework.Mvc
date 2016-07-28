@@ -1,11 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace FastFramework.Repositorys.Core.Contracts
+namespace FastFramework.Core
 {
-    public interface ICacheRepository : IRepository
+    public interface ICacheProvider
     {
-
         T Get<T>(string key);
 
         bool Add(string key, Object source, int timeOut = 0);
@@ -15,6 +17,5 @@ namespace FastFramework.Repositorys.Core.Contracts
         bool RemoveAll();
 
         bool Contains(string key);
-
     }
 }

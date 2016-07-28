@@ -41,13 +41,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Core.AutofacC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Core.AutoMapperProviders", "Core\FastFramework.Core.AutoMapperProviders\FastFramework.Core.AutoMapperProviders.csproj", "{8FD49B33-9483-40B8-B25E-D4608C0365B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Repositorys.Components", "Repositorys\FastFramework.Repositorys.Components\FastFramework.Repositorys.Components.csproj", "{AC878E56-D1D7-425E-AD78-83B4DA40069B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ioc", "Ioc", "{48AAB2AE-B1E9-42C8-B634-64068339B0A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapper", "Mapper", "{78E01A73-6D97-48EF-AB6E-F88794C7D7EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tool", "Tool", "{D6183C9C-BAE3-4F81-BB49-13BB35D24B82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Tool", "Tool\FastFramework.Tool\FastFramework.Tool.csproj", "{410F02F7-AD88-4A80-9617-6E792C14ACF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Json", "Json", "{7149C424-5304-40B9-9A71-A420F9870C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Core.JsonProvders", "Core\FastFramework.Core.JsonProvders\FastFramework.Core.JsonProvders.csproj", "{DB876CCC-BE31-483C-886E-7D68B91825B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log", "Log", "{B8DA6586-5043-4466-B22A-7F02F6A2625E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Core.LogNetProvider", "Core\FastFramework.Core.LogNetProvider\FastFramework.Core.LogNetProvider.csproj", "{FC7D819D-9CD0-433F-8B40-A219851093C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cache", "Cache", "{4D87DD9A-1BAC-4D42-8E37-0B81C63325F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Core.CacheProviders", "Core\FastFramework.Core.CacheProviders\FastFramework.Core.CacheProviders.csproj", "{E2C8F117-9B17-4685-A6D6-7F861E9F5DA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,10 +123,22 @@ Global
 		{8FD49B33-9483-40B8-B25E-D4608C0365B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FD49B33-9483-40B8-B25E-D4608C0365B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FD49B33-9483-40B8-B25E-D4608C0365B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC878E56-D1D7-425E-AD78-83B4DA40069B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC878E56-D1D7-425E-AD78-83B4DA40069B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC878E56-D1D7-425E-AD78-83B4DA40069B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC878E56-D1D7-425E-AD78-83B4DA40069B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410F02F7-AD88-4A80-9617-6E792C14ACF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410F02F7-AD88-4A80-9617-6E792C14ACF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410F02F7-AD88-4A80-9617-6E792C14ACF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410F02F7-AD88-4A80-9617-6E792C14ACF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB876CCC-BE31-483C-886E-7D68B91825B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB876CCC-BE31-483C-886E-7D68B91825B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB876CCC-BE31-483C-886E-7D68B91825B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB876CCC-BE31-483C-886E-7D68B91825B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7D819D-9CD0-433F-8B40-A219851093C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7D819D-9CD0-433F-8B40-A219851093C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7D819D-9CD0-433F-8B40-A219851093C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7D819D-9CD0-433F-8B40-A219851093C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C8F117-9B17-4685-A6D6-7F861E9F5DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C8F117-9B17-4685-A6D6-7F861E9F5DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C8F117-9B17-4685-A6D6-7F861E9F5DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C8F117-9B17-4685-A6D6-7F861E9F5DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,11 +157,17 @@ Global
 		{553EDF96-26B0-49F2-9D97-8858687E12EE} = {48AAB2AE-B1E9-42C8-B634-64068339B0A3}
 		{0C311812-A185-4F42-8642-6D1BCA7AF19B} = {48AAB2AE-B1E9-42C8-B634-64068339B0A3}
 		{8FD49B33-9483-40B8-B25E-D4608C0365B7} = {78E01A73-6D97-48EF-AB6E-F88794C7D7EC}
-		{AC878E56-D1D7-425E-AD78-83B4DA40069B} = {32AE25C1-5625-4AEE-B34A-24CCF6F667E9}
 		{48AAB2AE-B1E9-42C8-B634-64068339B0A3} = {FE565DEE-6FEA-473D-85E1-A573AEF9679C}
 		{78E01A73-6D97-48EF-AB6E-F88794C7D7EC} = {FE565DEE-6FEA-473D-85E1-A573AEF9679C}
+		{410F02F7-AD88-4A80-9617-6E792C14ACF1} = {D6183C9C-BAE3-4F81-BB49-13BB35D24B82}
+		{7149C424-5304-40B9-9A71-A420F9870C9D} = {FE565DEE-6FEA-473D-85E1-A573AEF9679C}
+		{DB876CCC-BE31-483C-886E-7D68B91825B7} = {7149C424-5304-40B9-9A71-A420F9870C9D}
+		{B8DA6586-5043-4466-B22A-7F02F6A2625E} = {FE565DEE-6FEA-473D-85E1-A573AEF9679C}
+		{FC7D819D-9CD0-433F-8B40-A219851093C3} = {B8DA6586-5043-4466-B22A-7F02F6A2625E}
+		{4D87DD9A-1BAC-4D42-8E37-0B81C63325F5} = {FE565DEE-6FEA-473D-85E1-A573AEF9679C}
+		{E2C8F117-9B17-4685-A6D6-7F861E9F5DA4} = {4D87DD9A-1BAC-4D42-8E37-0B81C63325F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35
 	EndGlobalSection
 EndGlobal

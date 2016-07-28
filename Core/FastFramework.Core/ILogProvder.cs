@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FastFramework.Repositorys.Core.Contracts
+namespace FastFramework.Core
 {
-    public interface ILogRepository : IRepository
+    public interface ILogProvider
     {
         void Log(string logName, string msg);
 

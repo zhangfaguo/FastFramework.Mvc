@@ -1,15 +1,13 @@
-﻿using FastFramework.Repositorys.Core.Contracts;
+﻿using log4net;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using log4net;
 
-namespace FastFramework.Repositorys.Components
+namespace FastFramework.Core.LogNetProvider
 {
- 
-    public class LogRepository : ILogRepository
+    public class LogNetProvider : ILogProvider
     {
         public void Log(string logName, string msg)
         {
