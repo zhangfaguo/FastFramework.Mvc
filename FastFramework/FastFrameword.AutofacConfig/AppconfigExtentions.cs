@@ -7,6 +7,7 @@ using FastFramework.Core.LogNetProvider;
 namespace FastFrameword.AutofacConfig
 {
     public static class AppconfigExtentions
+
     {
         public static AppConfig Config(this AppConfig cfg)
         {
@@ -14,7 +15,6 @@ namespace FastFrameword.AutofacConfig
             cfg.Container.RgeistSingle<IJsonProvider, NetJsonProvider>();
             cfg.Container.RgeistSingle<IMapper, AutoMapperProvider>();
             cfg.Container.RegistType<ILogProvider, LogNetProvider>();
-     
 
             cfg.Mapper = cfg.Container.Reloser<IMapper>();
             cfg.JsonConvert = cfg.Container.Reloser<IJsonProvider>();
