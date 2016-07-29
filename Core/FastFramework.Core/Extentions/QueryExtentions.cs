@@ -1,7 +1,7 @@
 ﻿using FastFramework.Core.Models;
 using System.Linq;
 
-namespace FastFramework.Core.Extentions
+namespace System.Linq
 {
     public static class QueryExtentions
     {
