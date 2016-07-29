@@ -7,11 +7,12 @@ namespace FastFramework.Web.Controllers
 {
     public class HomeController : Controller
     {
-        protected IUserCenterService userProvider;
+        private IUserCenterService userProvider;
         public HomeController(IUserCenterService user)
         {
             userProvider = user;
         }
+
         public ActionResult Index()
         {
             var mdeol = new { UserName = "zhangfaguo" }.To<UserModel>();
@@ -29,7 +30,7 @@ namespace FastFramework.Web.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            var tag = this.Resolver.GetService<IUserCenterService>();
             return View();
         }
     }

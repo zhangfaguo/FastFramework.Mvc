@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Core.CachePro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Web", "FastFramework\FastFramework.Web\FastFramework.Web.csproj", "{D50514F9-2032-4DAC-8F33-CC2F907F46C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Application.Core", "FastFramework\FastFramework.Application.Core\FastFramework.Application.Core.csproj", "{197A745D-581F-4353-B222-D51F4C5F1798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +147,10 @@ Global
 		{D50514F9-2032-4DAC-8F33-CC2F907F46C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D50514F9-2032-4DAC-8F33-CC2F907F46C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D50514F9-2032-4DAC-8F33-CC2F907F46C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197A745D-581F-4353-B222-D51F4C5F1798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197A745D-581F-4353-B222-D51F4C5F1798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197A745D-581F-4353-B222-D51F4C5F1798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197A745D-581F-4353-B222-D51F4C5F1798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,6 +179,7 @@ Global
 		{4D87DD9A-1BAC-4D42-8E37-0B81C63325F5} = {FE565DEE-6FEA-473D-85E1-A573AEF9679C}
 		{E2C8F117-9B17-4685-A6D6-7F861E9F5DA4} = {4D87DD9A-1BAC-4D42-8E37-0B81C63325F5}
 		{D50514F9-2032-4DAC-8F33-CC2F907F46C5} = {111D0988-723E-4845-ACE3-8EF2EAD4FC7A}
+		{197A745D-581F-4353-B222-D51F4C5F1798} = {111D0988-723E-4845-ACE3-8EF2EAD4FC7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35

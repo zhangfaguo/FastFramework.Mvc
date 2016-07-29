@@ -289,10 +289,6 @@
       <Project>{8fd49b33-9483-40b8-b25e-d4608c0365b7}</Project>
       <Name>FastFramework.Core.AutoMapperProviders</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Core\FastFramework.Core.UnityContainers\FastFramework.Core.UnityContainers.csproj">
-      <Project>{553edf96-26b0-49f2-9d97-8858687e12ee}</Project>
-      <Name>FastFramework.Core.UnityContainers</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Core\FastFramework.Core\FastFramework.Core.csproj">
       <Project>{4176c982-06a8-4953-ae99-3757a0f9f46b}</Project>
       <Name>FastFramework.Core</Name>
