@@ -2,6 +2,7 @@
 using FastFramework.Services.Mains.Contracts;
 using FastFrameword.AutofacConfig;
 using FastFramework.Services.Mains.Contracts.Models;
+using static System.Console;
 
 namespace TestConsole
 {
@@ -13,7 +14,7 @@ namespace TestConsole
                               .UseAutoMapper()
                               .Config();
 
-          //  AppConfig.Containers.LoadConfig();
+            //  AppConfig.Containers.LoadConfig();
 
             AppConfig.Containers
                 .RegisterDB()
@@ -22,8 +23,10 @@ namespace TestConsole
 
             var mdeol = new { UserName = "zhangfaguo" }.To<UserModel>();
 
-            AppConfig.Containers.Reloser<ILogService>().Log("test", "test");
+            AppConfig.LogWrtier.Log("test", "test");
 
         }
     }
+
+
 }

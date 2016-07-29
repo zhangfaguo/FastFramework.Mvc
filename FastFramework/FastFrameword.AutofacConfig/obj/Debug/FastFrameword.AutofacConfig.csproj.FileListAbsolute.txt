@@ -55,3 +55,7 @@ E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\NLog.dll
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\NLog.xml
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\FastFrameword.Core.NLogProviders.dll
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\FastFrameword.Core.NLogProviders.pdb

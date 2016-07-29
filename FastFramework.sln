@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Web", "FastFr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFramework.Application.Core", "FastFramework\FastFramework.Application.Core\FastFramework.Application.Core.csproj", "{197A745D-581F-4353-B222-D51F4C5F1798}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFrameword.Core.NLogProviders", "Core\FastFrameword.Core.NLogProviders\FastFrameword.Core.NLogProviders.csproj", "{DEAA7E7C-695B-409D-A053-CB854EA48D8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +153,10 @@ Global
 		{197A745D-581F-4353-B222-D51F4C5F1798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{197A745D-581F-4353-B222-D51F4C5F1798}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{197A745D-581F-4353-B222-D51F4C5F1798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEAA7E7C-695B-409D-A053-CB854EA48D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAA7E7C-695B-409D-A053-CB854EA48D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAA7E7C-695B-409D-A053-CB854EA48D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAA7E7C-695B-409D-A053-CB854EA48D8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,6 +186,7 @@ Global
 		{E2C8F117-9B17-4685-A6D6-7F861E9F5DA4} = {4D87DD9A-1BAC-4D42-8E37-0B81C63325F5}
 		{D50514F9-2032-4DAC-8F33-CC2F907F46C5} = {111D0988-723E-4845-ACE3-8EF2EAD4FC7A}
 		{197A745D-581F-4353-B222-D51F4C5F1798} = {111D0988-723E-4845-ACE3-8EF2EAD4FC7A}
+		{DEAA7E7C-695B-409D-A053-CB854EA48D8E} = {B8DA6586-5043-4466-B22A-7F02F6A2625E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35

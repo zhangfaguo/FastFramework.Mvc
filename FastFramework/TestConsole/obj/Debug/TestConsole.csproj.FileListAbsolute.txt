@@ -68,15 +68,11 @@ E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Newtonsoft.Json
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Core.JsonProvders.pdb
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Newtonsoft.Json.xml
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Core.CacheProviders.dll
-E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Core.LogNetProvider.dll
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
-E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\log4net.dll
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Microsoft.Practices.Unity.Interception.dll
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Core.CacheProviders.pdb
-E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFramework.Core.LogNetProvider.pdb
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
-E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\log4net.xml
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Microsoft.Practices.Unity.Interception.xml
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
@@ -85,3 +81,7 @@ E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\System.
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\NLog.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\NLog.xml
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFrameword.Core.NLogProviders.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\FastFrameword.Core.NLogProviders.pdb

@@ -124,7 +124,7 @@ namespace FastFramework.Core
 
         public ILogProvider LogProvider { get; set; }
 
-        public static ILogProvider Log
+        public static ILogProvider LogWrtier
         {
             get
             {

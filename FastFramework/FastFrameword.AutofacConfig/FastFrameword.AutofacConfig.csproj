@@ -63,6 +63,10 @@
     <Compile Include="UserCenterExteions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\FastFrameword.Core.NLogProviders\FastFrameword.Core.NLogProviders.csproj">
+      <Project>{deaa7e7c-695b-409d-a053-cb854ea48d8e}</Project>
+      <Name>FastFrameword.Core.NLogProviders</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Core\FastFramework.Core.AutoMapperProviders\FastFramework.Core.AutoMapperProviders.csproj">
       <Project>{8fd49b33-9483-40b8-b25e-d4608c0365b7}</Project>
       <Name>FastFramework.Core.AutoMapperProviders</Name>

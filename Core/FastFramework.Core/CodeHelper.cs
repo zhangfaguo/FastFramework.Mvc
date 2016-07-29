@@ -16,7 +16,7 @@ namespace FastFramework.Core
             }
             catch (Exception ex)
             {
-                AppConfig.Log.Log("CodeHelper", ex);
+                AppConfig.LogWrtier.Log("CodeHelper", ex);
                 tag = default(T);
             }
 
@@ -32,7 +32,7 @@ namespace FastFramework.Core
             }
             catch (Exception ex)
             {
-                AppConfig.Log.Log("CodeHelper", ex);
+                AppConfig.LogWrtier.Log("CodeHelper", ex);
                 tag = default(T);
             }
 
@@ -48,7 +48,7 @@ namespace FastFramework.Core
             }
             catch (Exception ex)
             {
-                AppConfig.Log.Log("CodeHelper", ex);
+                AppConfig.LogWrtier.Log("CodeHelper", ex);
                 tag = default(T);
             }
 

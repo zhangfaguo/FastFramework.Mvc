@@ -1,7 +1,7 @@
-﻿using FastFramework.Core;
+﻿using FastFrameword.Core.NLogProviders;
+using FastFramework.Core;
 using FastFramework.Core.CacheProviders;
 using FastFramework.Core.JsonProvders;
-using FastFramework.Core.LogNetProvider;
 
 namespace FastFrameword.AutofacConfig
 {
@@ -11,7 +11,7 @@ namespace FastFrameword.AutofacConfig
         public static AppConfig Config(this AppConfig cfg)
         {
             cfg.Container.RegistSingle<ICacheProvider, MemeryCacheProvider>();
-            cfg.Container.RegistType<ILogProvider, LogNetProvider>();
+            cfg.Container.RegistType<ILogProvider, NLogProviders>();
             cfg.Container.RegistSingle<IJsonProvider, NetJsonProvider>();
 
             cfg.JsonConvert = cfg.Container.Reloser<IJsonProvider>();
