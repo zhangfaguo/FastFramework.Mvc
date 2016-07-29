@@ -11,7 +11,7 @@ namespace FastFramework.Core
     public static class AutoMapperExtentions
     {
         /// <summary>
-        /// 使用AUTOMAPPER 对象转换组件
+        /// 初始化AUTOMapper组件
         /// </summary>
         /// <param name="cfg"></param>
         /// <returns></returns>

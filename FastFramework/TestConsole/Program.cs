@@ -13,11 +13,15 @@ namespace TestConsole
                               .UseAutoMapper()
                               .Config();
 
-            AppConfig.Containers.RegisterDB()
+          //  AppConfig.Containers.LoadConfig();
+
+            AppConfig.Containers
+                .RegisterDB()
                 .RegistMainRepository()
                 .RegisterService();
 
             var mdeol = new { UserName = "zhangfaguo" }.To<UserModel>();
+
             AppConfig.Containers.Reloser<ILogService>().Log("test", "test");
 
         }

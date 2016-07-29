@@ -14,6 +14,8 @@ namespace FastFrameword.AutofacConfig
             cfg.Container.RegistSingle<ICacheProvider, MemeryCacheProvider>();
             cfg.Container.RegistType<ILogProvider, LogNetProvider>();
             cfg.Container.RegistSingle<IJsonProvider, NetJsonProvider>();
+
+            cfg.JsonConvert = cfg.Container.Reloser<IJsonProvider>();
             return cfg;
         }
     }
