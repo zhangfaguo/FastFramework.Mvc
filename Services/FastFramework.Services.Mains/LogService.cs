@@ -6,7 +6,7 @@ namespace FastFramework.Services.Mains
 {
     public class LogService : ILogService
     {
-        public ILogProvider logProvider { get; set; }
+        protected ILogProvider logProvider { get; set; }
 
         public LogService(ILogProvider _log)
         {
