@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
 
 namespace FastFramework.Core
 {
@@ -9,6 +11,8 @@ namespace FastFramework.Core
         T Reloser<T>();
 
         T Reloser<T>(string name);
+
+        IEnumerable<T> ReloserAll<T>();
 
         object Reloser(Type type);
         #endregion
@@ -37,6 +41,6 @@ namespace FastFramework.Core
         /// <returns></returns>
         void LoadConfig();
 
-        void UseMvcContianer();
+        void UseMvcContianer(Assembly assembly);
     }
 }

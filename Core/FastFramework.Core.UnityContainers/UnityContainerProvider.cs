@@ -3,6 +3,8 @@ using Microsoft.Practices.Unity;
 using System.Web.Mvc;
 using Microsoft.Practices.Unity.Mvc;
 using Microsoft.Practices.Unity.Configuration;
+using System.Collections.Generic;
+using System.Reflection;
 
 namespace FastFramework.Core.UnityContainers
 {
@@ -29,6 +31,10 @@ namespace FastFramework.Core.UnityContainers
             return container.Resolve(type);
         }
 
+        public IEnumerable<T> ReloserAll<T>()
+        {
+            return container.ResolveAll<T>();
+        }
 
         public void RegistType(Type from, Type to)
         {
@@ -58,7 +64,7 @@ namespace FastFramework.Core.UnityContainers
             return container;
         }
 
-        public void UseMvcContianer()
+        public void UseMvcContianer(Assembly assembly)
         {
             DependencyResolver.SetResolver(new UnityDependencyResolver(this.container));
         }

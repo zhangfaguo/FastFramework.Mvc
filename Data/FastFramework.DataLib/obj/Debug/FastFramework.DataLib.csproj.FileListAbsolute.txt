@@ -10,3 +10,5 @@ E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\EntityFramewor
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\EntityFramework.SqlServer.dll
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\EntityFramework.xml
 E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Project\GIT\FastFramework\Data\FastFramework.DataLib\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll

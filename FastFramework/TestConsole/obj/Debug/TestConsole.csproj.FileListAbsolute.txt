@@ -79,3 +79,9 @@ E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Microsoft.Pract
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\log4net.xml
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
 E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\System.Web.Razor.resources.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\System.Web.WebPages.resources.dll
+E:\Project\GIT\FastFramework\FastFramework\TestConsole\bin\Debug\zh-Hans\System.Web.WebPages.Deployment.resources.dll

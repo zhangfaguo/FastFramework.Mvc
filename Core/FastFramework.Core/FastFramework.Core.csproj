@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="AppConfig.cs" />
     <Compile Include="CodeHelper.cs" />
+    <Compile Include="Event\EventBus.cs" />
+    <Compile Include="Event\ICustomer.cs" />
     <Compile Include="ICacheProvider.cs" />
     <Compile Include="IJsonProvider.cs" />
     <Compile Include="Extentions\ObjectExtention.cs" />

@@ -25,7 +25,7 @@ namespace FastFramework.Services.Mains
             {
                 UserName = "zhangfaguo"
             };
-
+            userProvider.Query.ToList();
             return user.To<UserModel>();
         }
     }

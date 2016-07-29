@@ -36,6 +36,11 @@ namespace FastFramework.Core.AutofacContainers
             return container.Resolve(type);
         }
 
+        public IEnumerable<T> ReloserAll<T>()
+        {
+            return container.Resolve<IEnumerable<T>>();
+        }
+
         public void RegistType(Type from, Type to)
         {
             var builder = new Autofac.ContainerBuilder();
@@ -91,10 +96,10 @@ namespace FastFramework.Core.AutofacContainers
             }
         }
 
-        public void UseMvcContianer()
+        public void UseMvcContianer(Assembly assembly)
         {
             var builder = new Autofac.ContainerBuilder();
-            builder.RegisterControllers(Assembly.GetExecutingAssembly());
+            builder.RegisterControllers(assembly).PropertiesAutowired();
             builder.Update(container);
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
         }

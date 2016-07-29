@@ -50,3 +50,8 @@ E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\log4net.xml
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
 E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Project\GIT\FastFramework\FastFramework\FastFrameword.AutofacConfig\bin\Debug\Microsoft.Practices.ServiceLocation.xml

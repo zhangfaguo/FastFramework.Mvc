@@ -20,3 +20,5 @@ E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debu
 E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.xml
 E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.Extended.xml
 E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Project\GIT\FastFramework\Repositorys\FastFramework.Repositorys.Core\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll

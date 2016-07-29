@@ -15,7 +15,7 @@ namespace FastFrameword.AutofacConfig
         public static IAppContianer RegisterDB(this IAppContianer cfg)
         {
 
-            cfg.RegistSingle<DbContext, Context>();
+            cfg.RegistTypeByThreadLife<DbContext, Context>();
 
             return cfg;
 
