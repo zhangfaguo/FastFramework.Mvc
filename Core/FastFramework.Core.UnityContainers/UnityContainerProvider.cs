@@ -5,6 +5,7 @@ using Microsoft.Practices.Unity.Mvc;
 using Microsoft.Practices.Unity.Configuration;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Web;
 
 namespace FastFramework.Core.UnityContainers
 {
@@ -50,7 +51,10 @@ namespace FastFramework.Core.UnityContainers
         public void RegistTypeByThreadLife<T1, T2>()
              where T2 : T1
         {
-            container.RegisterType<T1, T2>(new PerRequestLifetimeManager());
+            if (HttpContext.Current != null)
+                container.RegisterType<T1, T2>(new PerRequestLifetimeManager());
+            else
+                container.RegisterType<T1, T2>(new ContainerControlledLifetimeManager());
         }
 
         public void RegistSingle<T1, T2>(string name = "")

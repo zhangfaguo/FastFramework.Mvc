@@ -44,14 +44,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Autofac, Version=3.5.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Autofac.Integration.Mvc, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Autofac.Mvc5.3.3.4\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.0.1011, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -296,6 +288,10 @@
     <ProjectReference Include="..\..\Core\FastFramework.Core.AutoMapperProviders\FastFramework.Core.AutoMapperProviders.csproj">
       <Project>{8fd49b33-9483-40b8-b25e-d4608c0365b7}</Project>
       <Name>FastFramework.Core.AutoMapperProviders</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\FastFramework.Core.UnityContainers\FastFramework.Core.UnityContainers.csproj">
+      <Project>{553edf96-26b0-49f2-9d97-8858687e12ee}</Project>
+      <Name>FastFramework.Core.UnityContainers</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Core\FastFramework.Core\FastFramework.Core.csproj">
       <Project>{4176c982-06a8-4953-ae99-3757a0f9f46b}</Project>

@@ -9,6 +9,7 @@ using Autofac.Configuration;
 using Autofac.Integration.Mvc;
 using System.Reflection;
 using System.Web.Mvc;
+using System.Web;
 
 namespace FastFramework.Core.AutofacContainers
 {
@@ -63,8 +64,10 @@ namespace FastFramework.Core.AutofacContainers
         public void RegistTypeByThreadLife<T1, T2>() where T2 : T1
         {
             var builder = new Autofac.ContainerBuilder();
-            var exp = builder.RegisterType<T2>().As<T1>().InstancePerHttpRequest();
-            exp.PropertiesAutowired();
+            if (HttpContext.Current != null)
+                builder.RegisterType<T2>().As<T1>().InstancePerRequest().PropertiesAutowired();
+            else
+                builder.RegisterType<T2>().As<T1>().SingleInstance().PropertiesAutowired();
 
             builder.Update(container);
         }
