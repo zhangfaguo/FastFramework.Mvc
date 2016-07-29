@@ -65,8 +65,14 @@ namespace FastFramework.Core.UnityContainers
 
         public void LoadConfig()
         {
-            var sections = (UnityConfigurationSection)System.Configuration.ConfigurationManager.GetSection("unity");
-            sections.Configure(container);
+            try
+            {
+                var sections = (UnityConfigurationSection)System.Configuration.ConfigurationManager.GetSection("unity");
+                sections.Configure(container);
+            }
+            catch (Exception)
+            {
+            }
         }
     }
 }

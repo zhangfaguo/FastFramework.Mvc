@@ -80,9 +80,15 @@ namespace FastFramework.Core.AutofacContainers
 
         public void LoadConfig()
         {
-            var builder = new Autofac.ContainerBuilder();
-            builder.RegisterModule(new ConfigurationSettingsReader("autofac"));
-            builder.Update(container);
+            try
+            {
+                var builder = new Autofac.ContainerBuilder();
+                builder.RegisterModule(new ConfigurationSettingsReader("autofac"));
+                builder.Update(container);
+            }
+            catch (Exception)
+            {
+            }
         }
 
         public void UseMvcContianer()
