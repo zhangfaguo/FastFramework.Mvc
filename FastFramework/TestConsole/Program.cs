@@ -10,8 +10,8 @@ namespace TestConsole
         static void Main(string[] args)
         {
             AppConfig.Instance.UseAutofac()
+                              .UseAutoMapper()
                               .Config();
-
 
             AppConfig.Containers.RegisterDB()
                 .RegistMainRepository()

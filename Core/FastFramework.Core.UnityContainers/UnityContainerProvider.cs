@@ -47,7 +47,7 @@ namespace FastFramework.Core.UnityContainers
             container.RegisterType<T1, T2>(new PerRequestLifetimeManager());
         }
 
-        public void RgeistSingle<T1, T2>(string name = "")
+        public void RegistSingle<T1, T2>(string name = "")
              where T2 : T1
         {
             container.RegisterType<T1, T2>(name, new ContainerControlledLifetimeManager());

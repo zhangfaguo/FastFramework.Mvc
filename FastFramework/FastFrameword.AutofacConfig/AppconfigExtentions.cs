@@ -11,14 +11,9 @@ namespace FastFrameword.AutofacConfig
     {
         public static AppConfig Config(this AppConfig cfg)
         {
-            cfg.Container.RgeistSingle<ICacheProvider, MemeryCacheProvider>();
-            cfg.Container.RgeistSingle<IJsonProvider, NetJsonProvider>();
-            cfg.Container.RgeistSingle<IMapper, AutoMapperProvider>();
+            cfg.Container.RegistSingle<ICacheProvider, MemeryCacheProvider>();
             cfg.Container.RegistType<ILogProvider, LogNetProvider>();
-
-            cfg.Mapper = cfg.Container.Reloser<IMapper>();
-            cfg.JsonConvert = cfg.Container.Reloser<IJsonProvider>();
-
+            cfg.Container.RegistSingle<IJsonProvider, NetJsonProvider>();
             return cfg;
         }
     }

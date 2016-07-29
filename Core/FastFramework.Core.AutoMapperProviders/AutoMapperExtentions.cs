@@ -1,4 +1,5 @@
-﻿using FastFramework.Core.AutoMapperProviders;
+﻿using AutoMapper.Configuration;
+using FastFramework.Core.AutoMapperProviders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,11 @@ namespace FastFramework.Core
         /// <returns></returns>
         public static AppConfig UseAutoMapper(this AppConfig cfg)
         {
+            AutoMapper.Mapper.Initialize(new MapperConfigurationExpression()
+            {
+                CreateMissingTypeMaps = true
+            });
+
             cfg.Mapper = new AutoMapperProvider();
             return cfg;
         }

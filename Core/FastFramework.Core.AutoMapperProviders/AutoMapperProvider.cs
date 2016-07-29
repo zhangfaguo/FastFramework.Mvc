@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AutoMapper;
+using AutoMapper.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,10 +12,7 @@ namespace FastFramework.Core.AutoMapperProviders
     {
         public T Map<T>(object obj)
         {
-            return AutoMapper.Mapper.Map<T>(obj, (cfg) =>
-              {
-                  cfg.CreateMissingTypeMaps = true;
-              });
+            return AutoMapper.Mapper.Map<T>(obj);
         }
     }
 }

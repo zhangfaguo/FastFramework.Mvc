@@ -21,7 +21,7 @@ namespace FastFramework.Core
 
         void RegistTypeByThreadLife<T1, T2>() where T2 : T1;
 
-        void RgeistSingle<T1, T2>(string name = "") where T2 : T1;
+        void RegistSingle<T1, T2>(string name = "") where T2 : T1;
 
         #endregion
 

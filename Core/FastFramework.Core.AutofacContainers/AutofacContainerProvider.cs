@@ -64,7 +64,7 @@ namespace FastFramework.Core.AutofacContainers
             builder.Update(container);
         }
 
-        public void RgeistSingle<T1, T2>(string name = "") where T2 : T1
+        public void RegistSingle<T1, T2>(string name = "") where T2 : T1
         {
             var builder = new Autofac.ContainerBuilder();
             var exp = builder.RegisterType<T2>().As<T1>().SingleInstance();
