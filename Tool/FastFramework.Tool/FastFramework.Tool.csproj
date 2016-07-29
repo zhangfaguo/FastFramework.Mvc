@@ -41,6 +41,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request\FileHelper.cs" />
+    <Compile Include="Request\Get.cs" />
+    <Compile Include="Request\Post.cs" />
+    <Compile Include="Request\RequestUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\FastFramework.Core\FastFramework.Core.csproj">
+      <Project>{4176c982-06a8-4953-ae99-3757a0f9f46b}</Project>
+      <Name>FastFramework.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

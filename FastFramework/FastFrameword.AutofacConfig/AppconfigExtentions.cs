@@ -16,6 +16,7 @@ namespace FastFrameword.AutofacConfig
             cfg.Container.RegistSingle<IJsonProvider, NetJsonProvider>();
 
             cfg.JsonConvert = cfg.Container.Reloser<IJsonProvider>();
+            cfg.LogProvider = cfg.Container.Reloser<ILogProvider>();
             return cfg;
         }
     }

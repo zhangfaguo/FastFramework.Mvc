@@ -124,5 +124,21 @@ namespace FastFramework.Core
         }
         #endregion
 
+        #region 日志组件
+
+        public ILogProvider LogProvider { get; set; }
+
+        public static ILogProvider Log
+        {
+            get
+            {
+                if (_ins.LogProvider == null)
+                    throw new ArgumentNullException("LogProvider");
+                return _ins.LogProvider;
+            }
+        }
+
+        #endregion
+
     }
 }

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppConfig.cs" />
+    <Compile Include="CodeHelper.cs" />
     <Compile Include="ICacheProvider.cs" />
     <Compile Include="IJsonProvider.cs" />
     <Compile Include="Extentions\ObjectExtention.cs" />
