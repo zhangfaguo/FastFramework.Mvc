@@ -301,6 +301,10 @@
       <Project>{d240fb99-c1d0-4e7d-aee6-5e63fc483ecc}</Project>
       <Name>FastFrameword.AutofacConfig</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FastFramework.Application.Core\FastFramework.Application.Core.csproj">
+      <Project>{197a745d-581f-4353-b222-d51f4c5f1798}</Project>
+      <Name>FastFramework.Application.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

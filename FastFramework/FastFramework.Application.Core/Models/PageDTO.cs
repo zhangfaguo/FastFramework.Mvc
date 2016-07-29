@@ -1,7 +1,9 @@
 ﻿using FastFramework.Core.Models;
+using System.Web.Mvc;
 
 namespace FastFramework.Application.Core.Models
 {
+    [Bind(Exclude = "PageCount,RecordCount")]
     public class PageDTO<T> : BaseDTO<T>
          where T : PageModel, new()
     {
