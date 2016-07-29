@@ -1,5 +1,4 @@
 ﻿using FastFramework.Core;
-using FastFramework.Core.AutoMapperProviders;
 using FastFramework.Core.CacheProviders;
 using FastFramework.Core.JsonProvders;
 using FastFramework.Core.LogNetProvider;

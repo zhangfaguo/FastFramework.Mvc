@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Autofac;
-using System.Data.Entity;
 using Autofac.Configuration;
 using Autofac.Integration.Mvc;
 using System.Reflection;

@@ -1,5 +1,4 @@
 ﻿using FastFramework.Core.Models;
-using System.Linq;
 
 namespace System.Linq
 {

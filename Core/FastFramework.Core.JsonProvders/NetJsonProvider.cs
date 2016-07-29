@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FastFramework.Core.JsonProvders
+﻿namespace FastFramework.Core.JsonProvders
 {
     public class NetJsonProvider : IJsonProvider
     {
